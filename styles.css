@@ -66,34 +66,31 @@ h2 { /* Our menu */
   margin-bottom: 10px;
 }
 
+#home-tiles {
+  text-align: left;  
+}
+
 #menu-tile {
   height: 1000px;
   width: 90%;
   margin-bottom: 15px;
   position: relative;
   overflow: hidden;
-  background-position: center;
   background-color: wheat;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#menu-tile span {
-  position: absolute;
-  top: 5px;
-  right: 0px;
-  width: 100%;
+#menu-tile h3{
   text-align: center;
   font-size: 1.6em;
   font-family: 'Oxygen', sans-serif;
   color: red;
-  opacity: .8;
 }
 
  p{
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    float: left;
+    padding: 10px;
+    text-align: left;
 }   
 /* END HOME PAGE */
 
